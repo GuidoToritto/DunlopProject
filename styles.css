@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  padding: 0px 0px 0px 13px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #f2eae1;
+  width: 270px;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.cliente {
+  font-weight: 700;
+  line-height: normal;
+  padding: 50px 0px 0px 10px;
+}
+
+.puesto {
+  color: #a81d1d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dunlop {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+}
+
+.dunlop h4 {
+  padding: 0px 0px 0px 10px;
+}
+
+.btn {
+  background-color: #feaf00;
+  margin: 10px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.validar {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.btn-rechazar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #fd3d3d;
+  padding: 10px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-aprobar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #149414;
+  padding: 10px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-validar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #feaf00;
+  padding: 10px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-black {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-generar {
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 123, 237, 0.66);
+  padding: 10px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-validarpor {
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(254, 174, 0, 0.705);
+  padding: 10px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.menu-salir {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 400px;
+  width: 150px;
+  cursor: pointer;
+}
+
+main {
+  text-transform: uppercase;
+  height: 100vh;
+  width: 100%;
+}
+
+.SolicitudDeCompras {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+
+.SdC01 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.campana {
+  cursor: pointer;
+}
+
+.filtros {
+  display: flex;
+  margin: 10px;
+}
+
+.filtro {
+  background-color: pink;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  margin: 10px;
+  width: 203px;
+  height: 34px;
+  color: #fff;
+  background-color: #149414;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formularioDatos {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: rgba(128, 128, 128, 0.479);
+  margin: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.tables {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
